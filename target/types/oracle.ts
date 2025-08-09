@@ -40,7 +40,7 @@ export type Oracle = {
       args: [
         {
           name: "nonce";
-          type: "u16";
+          type: "u32";
         }
       ];
       returns: "u128";
